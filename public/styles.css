@@ -13,7 +13,8 @@ body {
 }
 
 header {
-  background-color: #f5ba13;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -60,7 +61,8 @@ footer p {
   position: relative;
   float: right;
   margin-right: 5px;
-  color: #f5ba13;
+  color: white;
+  background-color: #13c8f5;
   border: none;
   width: 70px;
   height: 36px;
@@ -71,8 +73,8 @@ footer p {
   border-radius: 5px;
 }
 .note button:hover{
-  background-color: #f5ba13;
-  color: #dfe772;
+  background-color: #a7f1ee;
+  color: #13c8f5;
   transition: 0.4s;
 }
 
@@ -99,7 +101,7 @@ form button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
+  background: #13c8f5;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -111,8 +113,8 @@ form button {
   transition: 0.4s;
 }
 form button:hover{
-  background: #dfe772;
-  color: #c0910e;
+  background: rgb(207, 243, 250);
+  color: #13c8f5;
   transition: 0.4s;
 }
 header p{
